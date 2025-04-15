@@ -1,0 +1,73 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body 
+{
+    background-color: #2b2d3b;
+    font-family: 'Segoe UI', sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+  
+.timer-container
+{
+    display: flex;
+    font-size: 48px;
+    gap: 15px;
+    margin-bottom: 10px;
+}
+  
+.time-box
+{
+    padding: 20px 30px;
+    border: 3px solid;
+    border-radius: 15px;
+    min-width: 80px;
+    text-align: center;
+}
+  
+#hours { border-color: #f78da7; }
+#minutes { border-color: #8ed1fc; }
+#seconds { border-color: #7ed6df; }
+  
+.labels
+{
+    display: flex;
+    justify-content: space-around;
+    width: 300px;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+.buttons 
+{
+    display: flex;
+    gap: 20px;
+}
+button
+{
+    padding: 10px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+button:first-child 
+{
+    background-color: #8fd9b6;
+    color: #333;
+}
+  
+button:last-child 
+{
+    background-color: #bfbfbf;
+    color: #333;
+}
+  

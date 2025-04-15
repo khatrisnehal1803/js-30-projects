@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Countdown Timer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="timer-container">
+    <div class="time-box" id="hours">00</div>
+    <span>:</span>
+    <div class="time-box" id="minutes">00</div>
+    <span>:</span>
+    <div class="time-box" id="seconds">10</div>
+  </div>
+
+  <div class="labels">
+    <span>HR</span><span>MIN</span><span>SEC</span>
+  </div>
+
+  <div class="buttons">
+    <button onclick="startTimer()">Start</button>
+    <button onclick="resetTimer()">Reset</button>
+  </div>
+
+  <script src="watch.js"></script>
+</body>
+</html>
