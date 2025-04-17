@@ -1,0 +1,85 @@
+/* body 
+{
+  background-color: #111;
+  color: #fff;
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.player-container 
+{
+  text-align: center;
+  background: #222;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 0 20px #444;
+}
+
+.controls button 
+{
+  font-size: 2rem;
+  margin: 0 1rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 8px;
+  background: #444;
+  color: #fff;
+  cursor: pointer;
+}
+
+.controls button:hover 
+{
+  background: #666;
+}
+
+.song-info 
+{
+  margin-top: 1rem;
+} */
+
+
+body 
+{
+  background: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb') no-repeat center center/cover;
+  font-family: 'Arial', sans-serif;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.player-widget 
+{
+  background: rgba(120, 90, 70, 0.7);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+  color: #fff;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.album-cover {
+  width: 100px;
+  border-radius: 12px;
+  margin-bottom: 10px;
+}
+
+.controls button {
+  background: none;
+  border: none;
+  font-size: 24px;
+  margin: 10px;
+  color: white;
+  cursor: pointer;
+}
+
+.volume-slider {
+  width: 100%;
+  margin-top: 10px;
+}
